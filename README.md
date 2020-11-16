@@ -54,13 +54,11 @@ Admin Flow
   4. password - postgres<br />
 3. Schema - public<br />
 4. Table-<br />
-   <br />
     1. "ADMIN"<br /><br />
        1. admin_id serial NOT NULL,
        2. email_id character varying(100),
        3. password character varying(50)
-
-
+       
     2. "BILL"<br />
         1. id serial NOT NULL,
         2. user_id integer NOT NULL,
